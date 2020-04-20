@@ -3,7 +3,7 @@
 This particular directory contains a python program that implements a basic neuron with a hard and soft activation function.
 Running the program will produce a set of graphs and confusion matricess comparing between hard and soft activation functions.
 
-*See the results*  --> Neuron_Intro/Hard_Soft_Activation.pdf
+*See the results*  --> [a link](Neuron_Intro/Hard_Soft_Activation.pdf)
 ## Getting Started
 
 * Pull down the repository
