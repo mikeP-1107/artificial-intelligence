@@ -1,4 +1,4 @@
-# Naive Bayess
+# Naive Bayes
 
 This particular directory contains a python program that implements a Naive Bayes Model.
 Running the program will produce a set of graphs showing the data distribution of training data,
