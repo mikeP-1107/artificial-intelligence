@@ -8,7 +8,7 @@ Running the program will produce a set of graphs and confusion matricess compari
 
 
 #### Example Output
-[Hard Activation Output](/images/hard_result.png)        [Soft Activation Output](/images/soft_result.png)
+![Hard Activation Output](/images/hard_result.png)        ![Soft Activation Output](/images/soft_result.png)
 ## Getting Started
 
 * Pull down the repository
