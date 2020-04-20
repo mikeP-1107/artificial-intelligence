@@ -4,7 +4,7 @@ import math
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 
-CONST_NUMBER_OF_NEURONS = 7
+CONST_NUMBER_OF_NEURONS = 3
 CONST_LEARNING_CONSTANT = .5
 
 #Graphs wta for a given set of patterns and weights
@@ -21,7 +21,7 @@ def graph_wta(patterns, weights, graph_title):
     else:
         legend_elements = [Line2D([0], [0], marker='o', color='red', label='Data', markersize=6)]
     plt.legend(handles=legend_elements, loc='upper right')
-    file_name = "../Results/WTA/" + str(CONST_NUMBER_OF_NEURONS) + "Neurons/" +graph_title + "2.png"
+    file_name = "Results/" + str(CONST_NUMBER_OF_NEURONS) + "Neurons/" +graph_title + "2.png"
     plt.savefig(file_name)
     plt.show()
 
@@ -89,7 +89,7 @@ def winner_take_all(patterns, neurons, iteration=1):
     return neurons
 
 #Reads data
-data = pd.read_csv("../Data/Ex1_data.csv")
+data = pd.read_csv("Data/Ex1_data.csv")
 
 #Manually set min and max based on data
 min_max_x_y = [[-11.7, .91], [-10.38, 8.1]]
