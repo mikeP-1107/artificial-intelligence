@@ -109,13 +109,13 @@ def probabilities_to_text(p_of_x, p_given_x, p_times_p_given_x):
     for key in p_of_x:
         keys.append("Class " + str(key))
     p_of_x_df = pd.DataFrame(p_of_x.values(), index = keys)
-    p_of_x_df.to_csv("../Results/Bayes/p(ci).csv")
+    p_of_x_df.to_csv("Results/p(ci).csv")
     p_given_x_df = pd.DataFrame(p_given_x)
     p_given_x_df.columns = keys
-    p_given_x_df.to_csv("../Results/Bayes/p(x|ci).csv")
+    p_given_x_df.to_csv("Results/p(x|ci).csv")
     p_times_p_given_x_df = pd.DataFrame(p_times_p_given_x)
     p_times_p_given_x_df.columns = keys
-    p_times_p_given_x_df.to_csv("../Results/Bayes/p(x|ci)_x_p(ci).csv")
+    p_times_p_given_x_df.to_csv("Results/p(x|ci)_x_p(ci).csv")
 
 #Takes in testing data and predictions, Calculates the accuracy of predictions and puts them to csv
 def test_accuracy(testing_data, predictions):
@@ -137,11 +137,11 @@ def test_accuracy(testing_data, predictions):
                 twos[int(testing_data[i][1])] += 1
     confusion_matrix = [zeros, ones, twos]
     confusion_matrix = pd.DataFrame(confusion_matrix)
-    confusion_matrix.to_csv("../Results/Bayes/ConfusionMatrix.csv")
+    confusion_matrix.to_csv("Results/ConfusionMatrix.csv")
 
 #Load Training and testing data
-training_data = load_file("../Data/Ex2_train.csv")
-testing_data = load_file("../Data/Ex2_test.csv")
+training_data = load_file("Data/Ex2_train.csv")
+testing_data = load_file("Data/Ex2_test.csv")
 
 #Removes class definition for making predictions
 testing_data_no_class = [row[0] for row in testing_data]
@@ -195,7 +195,7 @@ Line2D([0], [0], marker='o', color='purple', label='Class 2 Test Data Point', ma
 Line2D([0], [0], color='purple', lw=4, label='Class 2 Distribution'),]
 
 ax.legend(handles=legend_elements)
-file_name = "../Results/Bayes/" + "Data_Distribution" + ".png"
+file_name = "Results/" + "Data_Distribution" + ".png"
 plt.savefig(file_name)
 plt.show()
 
