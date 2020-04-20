@@ -5,7 +5,7 @@ Running the program will produce a set of graphs showing neurons iteratively ide
 N is configured to show 3 neurons in the program, change CONST_NUMBER_OF_NEURONS
 
 
-*See the full results*  --> [Hard vs Soft Activation Function](https://github.com/mikeP-1107/artificial-intelligence/blob/master/Kohonen_WTA/Kohonen_WTA.pdf)
+*See the full results*  --> [Winner Take All](https://github.com/mikeP-1107/artificial-intelligence/blob/master/Kohonen_WTA/Kohonen_WTA.pdf)
 
 
 ## Example Output
