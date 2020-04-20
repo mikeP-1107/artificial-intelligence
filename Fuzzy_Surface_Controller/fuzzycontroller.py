@@ -46,7 +46,7 @@ def plot_wireframe(x = 0, y = 0, z = 0, title=""):
     ax.set_zlabel('z')
     ax.plot_surface(X, Y, Z, rstride=1, cstride=1,
                 cmap='winter', edgecolor='none')
-    file_name = "../Results/Fuzzy/" + title + ".png"
+    file_name = "Results/" + title + ".png"
     plt.savefig(file_name)
     plt.show()
 
