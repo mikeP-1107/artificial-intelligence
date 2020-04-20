@@ -8,11 +8,13 @@ Running the program will produce a set of graphs and confusion matricess compari
 
 
 #### Example Output
-![Soft Activation Output](https://github.com/mikeP-1107/artificial-intelligence/blob/master/Neuron_Intro/images/soft_result.png) 
-Format: ![Soft Activation Function Output]
+![Soft Activation Output](https://github.com/mikeP-1107/artificial-intelligence/blob/master/Neuron_Intro/images/soft_result.png)
+
+
 
 ![Hard Activation Output](https://github.com/mikeP-1107/artificial-intelligence/blob/master/Neuron_Intro/images/hard_result.png)
-Format: ![Hard Activation Function Output]
+
+
 ## Getting Started
 
 * Pull down the repository
