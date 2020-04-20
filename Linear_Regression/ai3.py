@@ -144,10 +144,10 @@ def test(data, weight_set):
     return squared_error, predictions
 
 
-data_day1 = initialize("Project3_data/train_data_1.txt")
-data_day2 = initialize("Project3_data/train_data_2.txt")
-data_day3 = initialize("Project3_data/train_data_3.txt")
-test_data = initialize("Project3_data/test_data_4.txt")
+data_day1 = initialize("Data/train_data_1.txt")
+data_day2 = initialize("Data/train_data_2.txt")
+data_day3 = initialize("Data/train_data_3.txt")
+test_data = initialize("Data/test_data_4.txt")
 
 col = test_data [:,1]
 col = np.square(col)
