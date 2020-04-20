@@ -17,10 +17,13 @@ The repository contains the following machine learning modules:
 
 ## Example Outputs
 
+### Basic Neuron with Soft Activation Function
 ![Basic Neuron](https://github.com/mikeP-1107/artificial-intelligence/blob/master/Neuron_Intro/images/soft_result.png)
 
+### Kohonen Neural Network
 ![3 Neurons in WTA](https://github.com/mikeP-1107/artificial-intelligence/blob/master/Kohonen_WTA/Results/3Neurons/After%20100%20Iterations.png)
 
+### Fuzzy Logic 3D Surface Estimation
 ![Surface Estimation](https://github.com/mikeP-1107/artificial-intelligence/blob/master/Fuzzy_Surface_Controller/Results/estimation_surface.png)
 
 ## Getting Started
