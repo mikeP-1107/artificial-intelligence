@@ -7,7 +7,7 @@ Running the program will produce a set of graphs and confusion matricess compari
 *See the full results*  --> [Hard vs Soft Activation Function](https://github.com/mikeP-1107/artificial-intelligence/blob/master/Neuron_Intro/Hard_Soft_Activation.pdf)
 
 
-#### Example Output
+## Example Output
 ![Soft Activation Output](https://github.com/mikeP-1107/artificial-intelligence/blob/master/Neuron_Intro/images/soft_result.png)
 
 
