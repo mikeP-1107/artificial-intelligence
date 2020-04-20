@@ -2,8 +2,8 @@ import re
 import Porter_Stemmer_Python as Porter_Stemmer
 import math
 
-CONST_SENTENCES_FILE = "Project4_sentences/sentences.txt"
-CONST_STOP_WORDS_FILE = "Project4_sentences/stop_words.txt"
+CONST_SENTENCES_FILE = "Data/sentences.txt"
+CONST_STOP_WORDS_FILE = "Data/stop_words.txt"
 CONST_FREQUENCY_THRESHOLD = 3
 CONST_LEARNING_CONTANT = 1
 CONST_MAX_RADIUS = 3
