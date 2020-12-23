@@ -1,7 +1,5 @@
 # Fundamental Artificial Intelligence 
 
-This repository contains several different examples of  
-
 The repository contains the following machine learning modules:
  1) [Basic Neuron with a Hard and Soft Activation Function](https://github.com/mikeP-1107/artificial-intelligence/tree/master/Neuron_Intro)
  
