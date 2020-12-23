@@ -1,6 +1,6 @@
 # Fundamental Artificial Intelligence 
 
-The repository contains the following machine learning modules:
+The repository contains the following machine learning modules implemented in python from scratch:
  1) [Basic Neuron with a Hard and Soft Activation Function](https://github.com/mikeP-1107/artificial-intelligence/tree/master/Neuron_Intro)
  
  2) [Linear Regression Model](https://github.com/mikeP-1107/artificial-intelligence/tree/master/Linear_Regression)
